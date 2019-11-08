@@ -1,0 +1,226 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #333333;
+  background-color: #1F2025;
+  font-size: 10px;
+  font-family: PingFang-SC-Medium, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+td, th, caption {
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+button {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background: none;
+  background-color: transparent;
+}
+
+input {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: none;
+  height: 38px;
+  line-height: 38px;
+  color: white;
+}
+
+a {
+  color: #999999;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  line-height: 1;
+  border: none;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+input, textarea, select, button {
+  font: 14px PingFang-SC-Medium, Helvetica, Arial, sans-serif;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.mint-indicator {
+  position: relative;
+  z-index: 1000 !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+[class^="icon-"] {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.icon-home-menu {
+  background-image: url("../home/nav_menu@2x.png");
+}
+
+.icon-home-menu-close {
+  background-image: url("../home/nav_menu_close@2x.png");
+}
+
+.icon-home-menu-free {
+  background-image: url("../home/menu_ic_free@2x.png");
+}
+
+.icon-warm {
+  background-image: url("../personalCenter/serve_ic_warm@2x.png");
+}
+
+.icon-user {
+  background-image: url("../personalCenter/signup_ic_user@2x.png");
+}
+
+.icon-code {
+  background-image: url("../personalCenter/login_ic_num@2x.png");
+}
+
+.icon-pwd {
+  background-image: url("../personalCenter/signup_ic_password@2x.png");
+}
+
+.icon-set {
+  background-image: url("../personalCenter/ic_set_nor@2x.png");
+}
+
+.icon-company {
+  background-image: url("../personalCenter/ic_co_nor@2x.png");
+}
+
+.icon-handle-status-untreated {
+  background-image: url("../serviceCenter/serve_ic_untreated@2x.png");
+}
+
+.icon-handle-status-processed {
+  background-image: url("../serviceCenter/serve_ic_processed@2x.png");
+}
+
+.icon-shopCar-empty {
+  background-image: url("../serviceCenter/shop_empty@2x.png");
+}
+
+.icon-shopCar-full {
+  background-image: url("../serviceCenter/shop_full@2x.png");
+}
+
+.btn-nor {
+  color: white;
+  background-color: #999999;
+
+  &.available {
+    background-color: $main-color;
+  }
+}
+
+.btn-see {
+  width: 24px;
+  height: 22px;
+  background-image: url("../personalCenter/signup_ic_nosee@2x.png");
+  background-size: 100% 100%;
+
+  &.available {
+    background-image: url("../personalCenter/signup_ic_see@2x.png");
+  }
+}
+
+.btn-notice-close {
+  background-image: url("../personalCenter/btn_notice_close@2x.png");
+  background-size: 100% 100%;
+}
