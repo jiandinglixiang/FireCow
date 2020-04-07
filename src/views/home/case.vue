@@ -91,13 +91,13 @@ export default {
 
           > div.logo {
             margin-left: 0;
-            background-image: url("../../assets/home/case/case_Yingyan@2x.png");
+            background-image: url("../../assets/home/case/case_Vdianjing1.png");
           }
         }
 
         &:nth-child(2) {
           > div.logo {
-            background-image: url("../../assets/home/case/case_Udu@2x.png");
+            background-image: url("../../assets/home/case/case_Vdianjing2.png");
           }
         }
 
@@ -105,7 +105,7 @@ export default {
           float: right;
 
           > div.logo {
-            background-image: url("../../assets/home/case/case_1dianjing@2x.png");
+            background-image: url("../../assets/home/case/case_Vdianjing3.png");
           }
         }
 
@@ -125,13 +125,13 @@ export default {
             margin-right: 20%;
 
             > div.logo {
-              background-image: url("../../assets/home/case/case_Futou@2x.png");
+              background-image: url("../../assets/home/case/case_Vdianjing4.png");
             }
           }
 
           &:nth-child(2) {
             > div.logo {
-              background-image: url("../../assets/home/case/case_Vdianjing@2x.png");
+              background-image: url("../../assets/home/case/case_Vdianjing5.png");
 
             }
           }

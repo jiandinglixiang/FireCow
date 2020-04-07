@@ -7,6 +7,7 @@
       </div>
       <div id="nav-button">
         <a @click="switchNav(0)" class="is-active" href="javascript:void(0)"><span>首页</span></a>
+        <a href="https://score.firebulls.net" target="_blank"><span>火牛比分网</span></a>
         <a @click="switchNav(1)" href="javascript:void(0)"><span>电竞数据API</span></a>
         <a @click="switchNav(2)" href="javascript:void(0)"><span>产品服务</span></a>
         <a @click="switchNav(3)" href="javascript:void(0)"><span>更多服务</span></a>
